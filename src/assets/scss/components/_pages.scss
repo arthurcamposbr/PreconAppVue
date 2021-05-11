@@ -1,0 +1,61 @@
+.home{
+    .slider{
+        .slide{
+            height: 450px;
+        }
+    }
+}
+
+.sobre{
+    .desc{
+        color: $cinza2;
+    }
+    .card{
+        border: 0;
+        border-radius: 15px;
+        box-shadow: 0 4px 16px rgba($black, .1);
+        .card-footer{
+            background-color: transparent;
+            border: 0;
+            min-height: 96px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.filtro{
+    background-color: $cinza;
+    padding: 15px;
+    margin-bottom: 50px;
+    .form-group{
+        select{
+            width: 100%;
+            height: 45px;
+            padding: 0 15px;
+            font-size: 15px;
+            border: 0;
+            outline: none!important;
+            color: $cinza2;
+        }
+        button{
+            height: 45px;
+            border-radius: 0;
+            border: 0;
+        }
+    }
+}
+
+.cta_precon{
+    background-color: #00bbb3;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-bottom: 45px;
+    background-image: url(../img/bg_cta.svg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,93 @@
+$primary: #EB7824;
+$secondary: #525457;
+$success: #15C56C;
+$warning: #F3C11E;
+$cinza: #EBEBEB;
+$cinza2: #84848D;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  warning: $warning
+);
+
+$desktop: "only screen and (min-width : 1200px)";
+$tablet: "only screen and (max-width : 992px)";
+$celular: "only screen and (max-width : 768px)";
+$celularMin: "only screen and (min-width : 768px)";
+$minCelular: "only screen and (max-width : 320px)";
+
+// TAMANHO FONTES
+  
+.fw-100 {
+    font-weight: 100;
+  }
+  
+  .fw-300 {
+    font-weight: 300;
+  }
+  
+  .fw-400 {
+    font-weight: 400;
+  }
+  
+  .fw-500 {
+    font-weight: 500;
+  }
+  
+  .fw-600 {
+    font-weight: 600;
+  }
+  
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  .fw-800 {
+    font-weight: 800;
+  }
+  
+  .fw-900 {
+    font-weight: 900;
+  }
+  
+  .font-12 {
+    font-size: 12px;
+  }
+  
+  .font-13 {
+    font-size: 13px;
+  }
+  
+  .font-14 {
+    font-size: 14px;
+  }
+  
+  .font-15 {
+    font-size: 15px;
+  }
+  
+  .font-16 {
+    font-size: 16px;
+  }
+  
+  .font-18 {
+    font-size: 18px;
+  }
+  
+  .font-19 {
+    font-size: 19px;
+  }
+  
+  .font-20 {
+    font-size: 20px;
+  }
+  
+  .font-22 {
+    font-size: 22px;
+  }
+  
+  .font-25 {
+    font-size: 25px;
+  }
